@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "bin": {
+    "sonic-pi-env": "bin/sonic-pi-env.js"
+  },
   "scripts": {
     "clean": "rimraf bin",
-    "build": "babel src --out-dir ."
+    "build": "babel src --out-dir .",
+    "test": "node bin/sonic-pi-env.js"
   },
   "dependencies": {
-    "commander": "^2.11.0"
+    "commander": "^2.11.0",
+    "node-osc": "^2.1.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
