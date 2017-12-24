@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "bin": {
-    "sonic-pi-env": "bin/sonic-pi-env.js"
-  },
   "scripts": {
     "clean": "rimraf bin",
     "build": "babel src --out-dir .",
