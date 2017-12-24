@@ -19,6 +19,7 @@
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
+    "prettier": "^1.9.2",
     "rimraf": "^2.6.1"
   }
 }
